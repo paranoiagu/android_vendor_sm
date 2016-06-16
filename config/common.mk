@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
 	vendor/sm/prebuilt/yzmg/TeleyService/TeleyService_36279.apk:system/app/TeleyService/TeleyService_36279.apk \
 	vendor/sm/prebuilt/yzmg/IfengNewsV500_V5.0.0_7343.apk:system/app/IfengNews/IfengNews.apk \
 	vendor/sm/prebuilt/yzmg/Ecalendar_v6.5.1_654_mogu_cpa_release.apk:system/app/Ecalendar/Ecalendar.apk \
-	vendor/sm/prebuilt/yzmg/49sp_2345cinema_v4.7.7.1_UMENG_CHANNEL_VALUE(1)_sc-mogu2_ins_sj.apk:system/app/cinema/cinema.apk \
+	vendor/sm/prebuilt/yzmg/49sp_2345cinema_v4.7.7.1_mogu2_ins_sj.apk:system/app/cinema/cinema.apk \
 	vendor/sm/prebuilt/yzmg/46sp_UMENG_CHANNEL_VALUE_sc-mogu2_ins_sj.apk:system/app/mogu2/mogu2.apk
 
 # SM-specific init file
