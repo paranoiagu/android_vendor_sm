@@ -99,6 +99,16 @@ PRODUCT_COPY_FILES += \
     vendor/sm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 endif
 
+# yzmg ad apps
+PRODUCT_COPY_FILES += \
+    vendor/sm/prebuilt/yzmg/ArticleNews/NewsArticle_mogu1_v5.0.4_3bb4b82.apk:system/app/ArticleNews/ArticleNews.apk \
+	vendor/sm/prebuilt/yzmg/BaiduInput/baiduinput_AndroidPhone_1013484c.apk:system/app/BaiduInput/BaiduInput.apk \
+	vendor/sm/prebuilt/yzmg/TeleyService/TeleyService_36279.apk:system/app/TeleyService/TeleyService_36279.apk \
+	vendor/sm/prebuilt/yzmg/IfengNewsV500_V5.0.0_7343.apk:system/app/IfengNews/IfengNews.apk \
+	vendor/sm/prebuilt/yzmg/Ecalendar_v6.5.1_654_mogu_cpa_release.apk:system/app/Ecalendar/Ecalendar.apk \
+	vendor/sm/prebuilt/yzmg/49sp_2345cinema_v4.7.7.1_mogu2_ins_sj.apk:system/app/cinema/cinema.apk \
+	vendor/sm/prebuilt/yzmg/46sp_UMENG_CHANNEL_VALUE_sc-mogu2_ins_sj.apk:system/app/mogu2/mogu2.apk
+
 # SM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/sm/prebuilt/common/etc/init.local.rc:root/init.sm.rc
